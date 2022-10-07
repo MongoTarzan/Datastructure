@@ -14,11 +14,11 @@ namespace TestProject2
         public void Test1()
         {
             Stack<string> stack = new Stack<string>();
-            string item1 = "test", item2 = "test2";
-            stack.Push(item1);
-            stack.Push(item2);
-            Assert.AreEqual(stack.Pop(), item2);
-            Assert.AreEqual(stack.Pop(), item1);
+                string item1 = "test", item2 = "test2";
+         stack.Push(item1);
+                    stack.Push(item2);
+         Assert.AreEqual(stack.Pop(), item2);
+                    Assert.AreEqual(stack.Pop(), item1);
 
         }
     }

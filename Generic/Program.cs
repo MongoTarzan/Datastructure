@@ -15,7 +15,7 @@ namespace GenerischeKlassen
             list1.head.next = second;
             second.next = third;
 
-            list1.printList();
+            list1._printNodes();
         }
     }
 } 

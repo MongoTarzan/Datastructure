@@ -10,9 +10,9 @@ namespace Generic
     {
         public int data;
         public Node next;
-        public Node(int x)
+        public Node(Object argData)
         {
-            data = x;
+            data = (int)argData;
             next = null;
         }
     }

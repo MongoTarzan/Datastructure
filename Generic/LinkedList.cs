@@ -20,9 +20,9 @@ namespace Generic
             }
         }
 
-        public void insert(int newdata)
+        public void insert(int newData)
         {
-            Node first = new Node(newdata);
+            Node first = new Node(newData);
             first.next = head;
             head = first;
         }

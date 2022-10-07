@@ -12,7 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Class1.cs = Class1.cs
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest_pop1", "TestProject2\UnitTest_pop1.csproj", "{C2A5F41A-C82F-4C60-9943-08E1D9331AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest_TestSingleLinkedListTes", "TestProject2\UnitTest_TestSingleLinkedListTes.csproj", "{C2A5F41A-C82F-4C60-9943-08E1D9331AA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE3693DD-D820-4196-A6AB-1C78FF749588} = {BE3693DD-D820-4196-A6AB-1C78FF749588}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

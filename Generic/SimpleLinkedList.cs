@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Generic
+namespace SingleLinkedList
 {
-    public class LinkedList
+    public class SimpleLinkedList
     {
         public Node head;
         public int index = 0;
 
-        public void _InsertFirst(Object newFirst)
+        public void InsertFirst(Object newFirst)
         {
             if (head == null)
             {

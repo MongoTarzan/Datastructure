@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace TestProject2
+namespace TestSingleLinkedList
 {
     public class Tests
     {

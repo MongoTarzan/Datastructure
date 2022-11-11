@@ -101,5 +101,24 @@ namespace UnitTest
             list.SwitchNodes(node1, node2);
             Assert.AreEqual(list.head.data, 1);
         }
+
+        [Test]
+        public void InsertsortInverse_numbersUnordered_CorrectOrder()
+        {
+            SingleLinkedList.SingleLinkedList list = new SingleLinkedList.SingleLinkedList();
+            list.InsertLast(2);
+            list.InsertLast(4);
+            list.InsertLast(1);
+            list.InsertLast(6);
+            list.InsertLast(3);
+            list.InsertLast(5);
+
+            Assert.That(list.ToString, Is.EqualTo("2\n4\n1\n6\n3\n5\n"));
+
+            list.InsertionSortInverse();
+
+            Assert.That(list.ToString, Is.EqualTo("6\n5\n4\n3\n2\n1\n"));
+        }
+
     }
 }

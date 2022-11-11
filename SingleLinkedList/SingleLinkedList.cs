@@ -5,7 +5,7 @@
         public Node head;
         public int index = 0;
 
-        public void InsertFirst(Object _value)
+        public void InsertFirst(int _value)
         {
             if(head == null)
             {
@@ -33,7 +33,7 @@
             Console.WriteLine(printString);
         }
 
-        public void InsertLast(Object _value)
+        public void InsertLast(int _value)
         {
             Node node = new Node(_value);
 
@@ -77,7 +77,7 @@
             }
         }
 
-        public void InsertAt(Object _value, int _index)
+        public void InsertAt(int _value, int _index)
         {
             if (_index > index)
             {
@@ -130,7 +130,7 @@
             return count;
         }
 
-        public Node? GetElement(Object element)
+        public Node? GetElement(int element)
         {
             Node current = head;
 
@@ -138,7 +138,7 @@
             {
                 if(current.next == null) 
                 {
-                    Node node = new Node(null);
+                    Node node = new Node(element);
                     return node; 
                 }
 
@@ -147,7 +147,7 @@
             return current;
         }
 
-        public void InsertAfter(Object before, Object value)
+        public void InsertAfter(int before, int value)
         {
             Node node = new Node(value);
             Node getElement = GetElement(before);
@@ -214,5 +214,46 @@
 
             (node1.data, node2.data) = (node2.data, node1.data);
         }
-    }   
+
+        public void Insertsort()
+        {
+            var temp = head.next;
+
+            while (temp != null)
+            {
+                for (var current = head; current.next != null; current = current.next)
+                {
+                    if (current.data == temp.data && current.next.data == temp.next.data)
+                        break;
+                    if (current.data <= temp.data)
+                        continue;
+                    var speicher = current.data;
+                    current.data = temp.data;
+                    temp.data = speicher;
+                }
+                temp = temp.next;
+            }
+        }
+
+        public void InsertionSortInverse()
+        {
+            var temp = head;
+
+            while (temp != null)
+            {
+                for (var current = head; current.next != null; current = current.next)
+                {
+                    if (current.data == temp.data && current.next.data == temp.next.data)
+                        break;
+                    if (current.data >= temp.data)
+                        continue;
+                    var speicher = current.data;
+                    current.data = temp.data;
+                    temp.data = speicher;
+                }
+                temp = temp.next;
+            }
+        }
+
+    }
 }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestProject2
+namespace MyQueue
 {
-    internal class SingleLinkedListTest
+    public interface IObserver
     {
-
+        void Update(ISubject subject);
     }
 }

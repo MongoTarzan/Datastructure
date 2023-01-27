@@ -1,10 +1,10 @@
 ﻿using System;
 
-class QuickSort
+public class QuickSort
 {
-    static void Main(string[] args) {}
+    public static void Main(string[] args) {}
 
-    static void QuicksortAlgorithm(int[] arr, int left, int right)
+    public static void QuicksortAlgorithm(int[] arr, int left, int right)
     {
         if (left < right)
         {
@@ -21,7 +21,7 @@ class QuickSort
         }
     }
 
-    static int Partition(int[] arr, int left, int right)
+    public static int Partition(int[] arr, int left, int right)
     {
         int teiler = arr[left];
         while (true)

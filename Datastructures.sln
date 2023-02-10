@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUnitTests", "QueueUnit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{AE9ADAAB-D0CA-4B03-9A43-0EDD98E3744C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortTest", "QuickSortTest\QuickSortTest.csproj", "{B34B000D-2C6D-424F-B300-841436E11EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSortTest", "QuickSortTest\QuickSortTest.csproj", "{B34B000D-2C6D-424F-B300-841436E11EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{7A57B76D-D1DD-4AD0-B891-5BB03C121FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{7A57B76D-D1DD-4AD0-B891-5BB03C121FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{0E8FA98C-F004-4EE0-9372-590306E4B2CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{7A57B76D-D1DD-4AD0-B891-5BB03C121FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A57B76D-D1DD-4AD0-B891-5BB03C121FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A57B76D-D1DD-4AD0-B891-5BB03C121FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8FA98C-F004-4EE0-9372-590306E4B2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8FA98C-F004-4EE0-9372-590306E4B2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8FA98C-F004-4EE0-9372-590306E4B2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8FA98C-F004-4EE0-9372-590306E4B2CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

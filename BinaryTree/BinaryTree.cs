@@ -17,7 +17,7 @@ public class BinaryTree
 
     public void Insert(int value)
     {
-        Root = Insert(Root, value);
+        Insert(Root, value);
     }
 
     private Node Insert(Node node, int value)
@@ -39,6 +39,22 @@ public class BinaryTree
         }
 
         return node;
+    }
+
+    public override string ToString()
+    {
+        return getElementsAsString(Root);
+    }
+    string getElementsAsString(Node element)
+    {
+        if (element == null)
+            return "";
+        if (element.IsLeaf())
+            return element.ToString();
+        return getElementsAsString(element.LeftChild)
+            + element.ToString()
+            + getElementsAsString(element.RightChild);
+
     }
 
 }

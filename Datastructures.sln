@@ -31,9 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{0E8FA98C-F004-4EE0-9372-590306E4B2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromStack", "PalindromStack\PalindromStack.csproj", "{BD9ED12D-E4EE-4599-8D86-900C6817B27B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromStack", "PalindromStack\PalindromStack.csproj", "{BD9ED12D-E4EE-4599-8D86-900C6817B27B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromTest", "PalindromTest\PalindromTest.csproj", "{2E04F625-0CA9-4812-A921-37D9A12EA5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromTest", "PalindromTest\PalindromTest.csproj", "{2E04F625-0CA9-4812-A921-37D9A12EA5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMirrored", "StringMirrored\StringMirrored.csproj", "{38B137AE-0485-443A-9BC8-EFD822866438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMirroredTest", "StringMirroredTest\StringMirroredTest.csproj", "{97380013-E04E-46BF-BB7E-1581A509DAAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{2E04F625-0CA9-4812-A921-37D9A12EA5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E04F625-0CA9-4812-A921-37D9A12EA5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E04F625-0CA9-4812-A921-37D9A12EA5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B137AE-0485-443A-9BC8-EFD822866438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B137AE-0485-443A-9BC8-EFD822866438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B137AE-0485-443A-9BC8-EFD822866438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B137AE-0485-443A-9BC8-EFD822866438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97380013-E04E-46BF-BB7E-1581A509DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97380013-E04E-46BF-BB7E-1581A509DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97380013-E04E-46BF-BB7E-1581A509DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97380013-E04E-46BF-BB7E-1581A509DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
